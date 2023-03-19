@@ -1,5 +1,5 @@
 // api url
-const api_url = "https://api.thingspeak.com/channels/<ChannelID>/feeds.json?api_key=<ReadAPIKeys>&results=1";
+const api_url = "https://api.thingspeak.com/channels/2071477/feeds.json?api_key=24ORHN7N9Y6G40T3&results=1";
 // masukan url sesuai dengan format <ChannelID>, <ReadAPIKeys> yang ada di Thingspeak, tanpa menggunakan < >
 
 setInterval(() => {
@@ -8,7 +8,7 @@ setInterval(() => {
     .then((res) => {
       var field = JSON.stringify(res.feeds[0]);
       var obj = JSON.parse(field);
-      document.getElementById("field-1").innerHTML = obj.field1;
-      document.getElementById("field-2").innerHTML = obj.field2;
+      document.getElementById("distance").innerHTML =  obj.field1;
+      document.getElementById("xAngle").innerHTML = obj.field2;
     });
 }, 1000);

@@ -1,15 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="script.js"></script>
-    <title>Document</title>
-  </head>
-  <body>
-    <h1>Temperature</h1>
-    <h2 id="field-1">--</h2>
-    <h2 id="field-2">--</h2>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/77fa727d74.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <title>Tugas Modul 3</title>
+</head>
+<body>
+    <section class="sec">
+        <div class="running-text"><h1><span class="auto-input"></span></h1></div>
+        <div class="margin-top">
+        <div class="card">
+            <div class="content">
+                <div class="card-text">
+                    <div class="card-image">
+                        <img src="img/p2.jpeg" alt="">
+                    </div>
+                    <h4>About Me</h4>
+                    <ul>
+                        <li>Nama : Rischa Zefaniya</li>
+                        <li>Lahir : Medan, 22 April 2003</li>
+                        <li>Jurusan : S1 Teknik Telekomunikasi</li>
+                    </ul>
+                </div>
+                    <a class="button" href="https://www.instagram.com/rischasinulingga_" target="_blank">
+                    <div class="icon">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                    <span>Instagram</span>
+                    </a>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+          <div class="content">
+              <div class="card-text">
+                  <div class="card-image">
+                      <img src="image/ilustrasi-gempa-bumi_20180519_220213.jpg" alt="">
+                  </div>
+                  <h4>Earthquake Description</h4>
+                  <ul>
+                      <li><h2>Distance :</h2></li>
+                      <li>  <h2 id="distance">--</h2> </li>
+                      <li><h2>xAngle : </h2></li>
+                      <li> <h2 id="xAngle">--</h2> </li>
+                  </ul>
+              </div>
+              </div>
+              </div>
+          </div>
+      </div>
+  </div>
+        <div class="margin-bottom">
+            <div class="card">
+                <div class="content">
+                    <div class="card-text">
+                        <div class="card-image">
+                            <img src="image/wokwi.jpg" alt="">
+                        </div>
+                        <h4>Tools Description</h4>
+                        <h10>Alat ini merupakan alat yang digunakan untuk mendeteksi gempa, 
+                          pada website ini akan di tampilkan </h10>
+                </div>
+    </section>
+
+<script>
+    let typed = new Typed(".auto-input",{
+    strings: ["Tugas Modul 3", "Deployment"],
+    typeSpeed: 150,
+    backSpeed: 50,
+    loop: true
+})
+</script>
+
+</body>
 </html>
