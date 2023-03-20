@@ -1,13 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap");
-img{
-    float:left; 
-    width:200px; 
-    display:inline; 
-    text-align:center; 
-    color:#5e6b79 ; 
-    text-decoration:none; 
-    margin-left: 0px;
-}
+
 * {
   margin: 0;
   padding: 0;
@@ -37,10 +29,6 @@ section .card {
   border-radius: 16px;
   margin: 20px;
   transition: background 0.5s;
-}
-
-section.dark .card {
-  background: #323840;
 }
 
 section .card .content,
@@ -102,10 +90,6 @@ section .running-text {
   height: 60px;
   font-size: 2em;
   text-align: center;
-}
-
-section.dark .running-text {
-  color: #ccc;
 }
 
 footer{
