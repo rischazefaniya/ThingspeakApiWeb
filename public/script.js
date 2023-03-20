@@ -8,7 +8,7 @@ setInterval(() => {
     .then((res) => {
       var field = JSON.stringify(res.feeds[0]);
       var obj = JSON.parse(field);
-      document.getElementById("distance").innerHTML =  obj.field1;
-      document.getElementById("xAngle").innerHTML = obj.field2;
+      document.getElementById("distance").innerHTML =  obj.field1+" cm";
+      document.getElementById("xAngle").innerHTML = obj.field2+" rad";
     });
 }, 1000);
